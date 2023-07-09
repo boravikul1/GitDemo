@@ -1,0 +1,3 @@
+00:44:45.720 [main] INFO  com.seleniumautomation.mavenproject.Log4jTest - This is Info Log
+00:44:45.732 [main] FATAL com.seleniumautomation.mavenproject.Log4jTest - This is fatal Log
+00:44:45.733 [main] ERROR com.seleniumautomation.mavenproject.Log4jTest - This is error log

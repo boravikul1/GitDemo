@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-17T01:16:59 IST" name="Surefire suite" finished-at="2021-12-17T01:17:43 IST" duration-ms="44656">
+    <groups>
+    </groups>
+    <test started-at="2021-12-17T01:16:59 IST" name="Surefire test" finished-at="2021-12-17T01:17:43 IST" duration-ms="44656">
+      <class name="com.seleniumautomation.mavenproject.LinksTest">
+        <test-method signature="testlinks()[pri:0, instance:com.seleniumautomation.mavenproject.LinksTest@25a65b77]" started-at="2021-12-17T01:17:24 IST" name="testlinks" finished-at="2021-12-17T01:17:34 IST" duration-ms="9295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlinks -->
+      </class> <!-- com.seleniumautomation.mavenproject.LinksTest -->
+      <class name="com.seleniumautomation.mavenproject.TestNGAnnotationTest">
+        <test-method signature="firstTest()[pri:0, instance:com.seleniumautomation.mavenproject.TestNGAnnotationTest@3c87521]" started-at="2021-12-17T01:17:43 IST" name="firstTest" finished-at="2021-12-17T01:17:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method signature="secondTest()[pri:1, instance:com.seleniumautomation.mavenproject.TestNGAnnotationTest@3c87521]" started-at="2021-12-17T01:17:43 IST" name="secondTest" finished-at="2021-12-17T01:17:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTest -->
+        <test-method signature="fourthTest()[pri:3, instance:com.seleniumautomation.mavenproject.TestNGAnnotationTest@3c87521]" started-at="2021-12-17T01:17:43 IST" name="fourthTest" finished-at="2021-12-17T01:17:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTest -->
+        <test-method signature="thirdTest()[pri:2, instance:com.seleniumautomation.mavenproject.TestNGAnnotationTest@3c87521]" started-at="2021-12-17T01:17:43 IST" name="thirdTest" finished-at="2021-12-17T01:17:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTest -->
+      </class> <!-- com.seleniumautomation.mavenproject.TestNGAnnotationTest -->
+      <class name="com.seleniumautomation.mavenproject.AllLinksTest">
+        <test-method is-config="true" signature="extentReports()[pri:0, instance:com.seleniumautomation.mavenproject.AllLinksTest@25b485ba]" started-at="2021-12-17T01:16:59 IST" name="extentReports" finished-at="2021-12-17T01:16:59 IST" duration-ms="117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReports -->
+        <test-method signature="linkTestRespCode()[pri:0, instance:com.seleniumautomation.mavenproject.AllLinksTest@25b485ba]" started-at="2021-12-17T01:16:59 IST" name="linkTestRespCode" finished-at="2021-12-17T01:17:15 IST" duration-ms="15963" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTestRespCode -->
+      </class> <!-- com.seleniumautomation.mavenproject.AllLinksTest -->
+      <class name="com.seleniumautomation.mavenproject.FramesTest">
+        <test-method signature="initializeBrowser()[pri:0, instance:com.seleniumautomation.mavenproject.FramesTest@240237d2]" started-at="2021-12-17T01:17:15 IST" name="initializeBrowser" finished-at="2021-12-17T01:17:24 IST" duration-ms="9505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeBrowser -->
+      </class> <!-- com.seleniumautomation.mavenproject.FramesTest -->
+      <class name="com.seleniumautomation.mavenproject.ScreenshotTest">
+        <test-method signature="takeScreenshot()[pri:0, instance:com.seleniumautomation.mavenproject.ScreenshotTest@2ed0fbae]" started-at="2021-12-17T01:17:34 IST" name="takeScreenshot" finished-at="2021-12-17T01:17:43 IST" duration-ms="9738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshot -->
+      </class> <!-- com.seleniumautomation.mavenproject.ScreenshotTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

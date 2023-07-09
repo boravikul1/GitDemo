@@ -1,0 +1,23 @@
+<Configuration name="ConfigTest" status="ERROR" monitorInterval="5">
+<Properties>
+<Property name = "basePath">./logs</Property>
+</Properties>
+  <Appenders>
+      <RollingFile name="File" fileName="${basePath}/prints.log" filePattern="${basePath}/prints-%d{yyyy-MM-dd}.log">
+     <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+      <SizeBasedTriggeringPolicy size="2" />
+          </RollingFile>
+  
+      <Console name="Console">
+        <PatternLayout pattern="%d{HH:mm:ss:SSS} [%t] - %level - %logger - %m%n"/>
+      </Console>
+  </Appenders>
+  <Loggers>
+    <!--Logger name="com.seleniumautomation.mavenproject.Log4jTest" level="info" additivity="false">
+      <AppenderRef ref="File"/>
+    </Logger-->
+    <Root level="debug">
+      <AppenderRef ref="File"/>
+    </Root>
+  </Loggers>
+</Configuration>
